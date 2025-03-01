@@ -21,7 +21,9 @@ rm -rf $PREFIX/local-dir
 rm ~/librwgta-termux/librwgta/premake5.lua
 cd ~/librwgta-termux/librwgta
 mv ~/librwgta-termux/premake5.lua ~/librwgta-termux/librwgta
-../premake-5.0.0-beta5-src/bin/release/premake5 gmake
+cp -r ~/librwgta-termux/premake-5.0.0-beta5-src/bin/release/* ~/librwgta-termux/librwgta
+chmod +x premake5
+./premake5 gmake
 cd build && make config=release_linux-arm-null
 cd ~ && mv librwgta-termux/librwgta/bin/linux-arm-null/Release/* $PREFIX/bin
 rm -rf $PREFIX/include/librw $PREFIX/include/src $PREFIX/include/rw.h $PREFIX/include/args.h $PREFIX/lib/librw.a $PREFIX/lib/librw_skeleton.a
