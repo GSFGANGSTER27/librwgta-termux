@@ -5,6 +5,7 @@ clear
 pkg install build-essential llvm unzip
 pkg update && apt upgrade
 pkg install binutils
+pkg install libuuid
 git clone --recursive https://github.com/aap/librw
 git clone --recursive https://github.com/aap/librwgta
 curl -Lo premake-5.0.0-beta5.zip 'https://github.com/premake/premake-core/releases/download/v5.0.0-beta5/premake-5.0.0-beta5-src.zip'
