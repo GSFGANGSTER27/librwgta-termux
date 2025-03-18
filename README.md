@@ -9,7 +9,7 @@ Second, do this command in Termux:
 termux-setup-storage
 pkg install git
 git clone --recursive 'https://github.com/GSFGANGSTER27/librwgta-termux'
-cd librwgta-termux && sh librwgta-termux-tools.sh
+cd librwgta-termux && sh librwgta-termux-tools.sh && cd
 ```
 # How to do asset conversions
 Now that you got everything setup. You can now do a conversion.
