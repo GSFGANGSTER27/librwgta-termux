@@ -2,7 +2,7 @@
 # Converts San Andreas Mobile DFF to PC
 
 # Converting...
-cd "/storage/emulated/0/gtastuff/librwgta/ViceCity"
+cd "/storage/emulated/0/gtastuff/librwgta/SanAndreas"
 for i in *.dff
     do convdff -u -o d3d8 "$i" "out/${i%.*}.dff"
 done
