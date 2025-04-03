@@ -23,8 +23,10 @@ cd librwgta-termux
 Second, put the DFF to:
 If it's Vice City related conversion:
 Put them to "/storage/emulated/0/gtastuff/ViceCity"
+
 If it's GTA3 related conversions:
 Put them to "/storage/emulated/0/gtastuff/GTA3"
+
 If it's San Andreas related conversions,
 Put them to "/storage/emulated/0/gtastuff/SanAndreas"
 
